@@ -899,8 +899,8 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 750px auto;
-			width: 2250px;
+			background-size: 100% auto;
+			width: 100%;
 		} }
 
 /* Mobile */
