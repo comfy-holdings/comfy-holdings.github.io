@@ -215,7 +215,7 @@ input, select, textarea {
 
 /* BG */
 
-	#bg {
+#bg {
 /*		-moz-animation: bg 60s linear infinite;
 		-webkit-animation: bg 60s linear infinite;
 		-ms-animation: bg 60s linear infinite;
@@ -231,10 +231,15 @@ input, select, textarea {
 	/* Set your background with this */
 
 		background: #000 url("images/png-bg-dark.png");
- 		background-size: cover;
  		background-repeat: no-repeat;
+ 		background-size: cover;
 		/*background-repeat: repeat-x;*/
 		height: 100%;
+		width:100%;
+		/*left: 0;
+		opacity: 1;*/*/
+/*		position: fixed;*/
+		/*top: 0;*/
 	}
 
 	@-moz-keyframes bg {
@@ -980,8 +985,9 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 300px auto;
-			width: 900px;
+			background-size: cover;
+			height: 100%;
+			width:100%;
 		}
 
 	/* Header */
@@ -1078,8 +1084,9 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
+			background-size: cover;
+			height: 100%;
+			width:100%;
 		}
 
 	/* Header */
