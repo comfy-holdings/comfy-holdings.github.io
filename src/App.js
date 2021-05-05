@@ -12,6 +12,9 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/lyon">
+          <div>lyon</div>
+        </Route>
         <Route path="/">
           <div className="App">
             <header className="App-header">
