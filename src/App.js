@@ -1,5 +1,6 @@
 import './App.css';
-import logo from './img/comfy.png';
+import Lyon from './Lyon.js';
+import logo from './img/comfy_logo.png';
 
 import {
   BrowserRouter as Router,
@@ -13,7 +14,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/lyon">
-          <div>lyon</div>
+          <Lyon/>
         </Route>
         <Route path="/">
           <div className="App">
